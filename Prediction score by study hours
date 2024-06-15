@@ -10,8 +10,7 @@ This is a repository for my task as an Intern at TSF
 Warning message:
 package ‘ggplot2’ was built under R version 4.3.3 
 > data<-read.csv("http://bit.ly/w-data")
-> model<_ Im(Scores~Hours,data)
-Error: unexpected symbol in "model<_ Im"
+
 > model<- lm(Scores~Hours,data)
 > model
 
