@@ -25,6 +25,7 @@ Coefficients:
 > ggplot(data,aes(x=Hours,y=Scores))+geom_point()
 > plot(data)
 > abline(model, col="yellow")
+
 > a<-data.frame(Hours=9.25)
 > result<-predict(model,a)
 > print(result)
